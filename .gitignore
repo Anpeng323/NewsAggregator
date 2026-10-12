@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Databases (runtime data, not source)
+*.db
+*.sqlite
+*.sqlite3
+
+# Local env / secrets
+.env
+.env.*
+!.env.example
+
+# Tooling / local state (not project source)
+.gstack/
+.codebuddy/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
